@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/search_icon"
+        android:title="">
+    </item>
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/shopping_cart_icon"
+        android:title="">
+    </item>
+
+    <item
+        app:showAsAction="always"
+        android:icon="@drawable/options_icon"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/profile"
+                android:title="Profile"
+                android:icon="@drawable/account_icon"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/settings"
+                android:title="Settings"
+                android:icon="@drawable/settings_icon"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/help"
+                android:title="Help"
+                android:icon="@drawable/help_icon"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/feedback"
+                android:title="Send Feedback"
+                android:icon="@drawable/feedback_icon"
+                app:showAsAction="never"/>
+            <item
+                android:id="@+id/log_out"
+                android:title="Log Out"
+                android:icon="@drawable/logout_icon"
+                app:showAsAction="never"/>
+        </menu>
+
+    </item>
+
+</menu>
